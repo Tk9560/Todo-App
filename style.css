@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    color: aliceblue;
+    height: 100vh;
+}
+.container{
+    margin-top: 150px;
+}
+
+.todo-heading{
+    padding: 1rem 0 6rem;
+}
+
+.hide-completed{
+    position: relative;
+    left: 60px;
+}

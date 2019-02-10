@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple ToDo App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container bg-dark col-md-7">
+        <h1 class="font-italic ml-5">Simple ToDo App</h1>
+        
+        <div class="filter todo-heading">
+            <input id="filter-todo" class="mr-1 pl-2" type="text" placeholder="Filter Todos">
+            <label class="hide-completed" for="hide-completed">
+                <input id="hide-completed" type="checkbox"> Hide completed
+            </label>
+            <div id="todos" class="ml-5"></div>
+        </div>
+        
+
+        <!--button id="add-todo">Add Todo</button-->
+        <form id="new-todo" class="pb-4">
+            <input id="" type="text" class="mr-5 pl-2" name="todoInput" placeholder="Do something...">
+            <button type="submit" class="ml-3">Submit</button>
+        </form>
+    </div>
+
+    <div>
+        <div class="left-side d-inline-block">
+            <ul>
+            <li><input type="checkbox"></li>
+            <li><input type="text" placeholder="Do something..."></li>
+            </ul>
+        </div>
+        <div class="right d-inline-block">
+            <li><button>X</button></li>
+        </div>
+        <br>
+        <div class="left-side d-inline-block">
+            <ul>
+                <li><input type="checkbox"></li>
+                <li><input type="text" placeholder="Do something..."></li>
+                </ul>
+        </div>
+        <div class="right d-inline-block">
+            <li><button>X</button></li>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" ></script>
+    <script src="uuid_v4.js"></script>
+    <script src="todo-functions.js"></script>
+    <script src="todo-app.js"></script>
+    
+
+</html>
